@@ -39,7 +39,7 @@
 }
 
 h3 {
-    font-size: 4rem;
+    font-size: 3rem;
     color: var(--black);
     font-family: var(--ff);
 }
@@ -199,7 +199,7 @@ header {
 
 #facility .container img {
     width: 20%;
-    height: 4rem;
+    height: 3rem;
     margin-bottom: 1rem;
 }
 
@@ -232,4 +232,39 @@ header {
 #facility .box_container .box p {
     color: var(--light-color);
     margin-bottom: 1rem;
+}
+
+
+
+/* Menu Section */
+
+#popular {
+    text-align: center;
+}
+
+#popular img {
+    height: 3rem;
+    margin-bottom: 1rem;
+}
+
+#popular .container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+#popular .container .menu {
+    margin-top: 1.5rem;
+} 
+
+#popular .container .menu img {
+    width: 100%;
+    height: auto;
+}
+
+#popular .container .menu h4 {
+    font-size: 1.8rem;
+    color: var(--light-color);
 }
