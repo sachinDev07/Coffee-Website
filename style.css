@@ -334,3 +334,70 @@ header {
     color: var(--light-color);
     font-size: 1.8rem;
 }
+
+
+
+
+/* Contact Section */
+
+#contact .heading {
+    text-align: center;
+    margin-top: 3rem;
+}
+
+#contact .heading img {
+    height: 3rem;
+    margin-bottom: 1rem;
+}
+
+#contact .contact_container {
+    display: flex;
+    align-items: center;
+    /* flex-wrap: wrap; */
+    gap: 1rem;
+}
+
+#contact .contact_container .image {
+    flex: 1 1 70rem;
+}
+
+#contact .contact_container .image img {
+    width: 100%;
+}
+
+#contact .contact_container .f-container {
+    flex: 1 1 50rem;
+}
+
+#contact .contact_container form {
+    width: 100%;
+    border: var(--border);
+    padding: 2rem;
+    text-align: center;
+}
+
+#contact .contact_container  form {
+    border: var(--border);
+    flex-direction: column;
+    text-align: center;
+    padding: 2rem;   
+}
+
+#contact .contact_container form h4 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: var(--black);
+}
+
+#contact .contact_container form .box {
+    width: 100%;
+    padding: 1.4rem;
+    font-size: 1.8rem;
+    color: var(--black);
+    border: var(--border);
+    margin: 1rem 0;
+}
+
+#contact .contact_container form button:hover {
+    background-color: var(--black);
+}
