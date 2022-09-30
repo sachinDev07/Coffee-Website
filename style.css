@@ -1,8 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Merienda+One&family=Nunito:wght@200;300;400;500;600&display=swap');
 * {
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
-    padding: 0%;
-    margin: 0%;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
 }
 
 :root{
@@ -41,4 +46,61 @@ h3 {
         height: 4rem;
         margin-bottom: 1rem;
         text-align: center;
+}
+
+
+
+/* Head Section */
+
+header {
+    position: sticky;
+    padding: 1rem 1rem;
+    background-color: var(--white);
+    height: 12vh;
+    box-shadow: var(--box-shadow);
+}
+
+#head_section .head {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#head_section a img {
+    width: 20%;
+    height: auto;
+}
+
+#navbar {
+    display: flex;
+    list-style: none;
+}
+
+#navbar li {
+    margin-right: 2rem;
+    position: relative;
+    font-size: 1.2rem;
+}
+
+#navbar li a {
+    text-decoration: none;
+    color: var(--black);
+    transition: .1s ease;
+}
+
+#navbar li a:hover {
+    color: var(--main-color);
+}
+
+#navbar li a:hover::after {
+    content: "";
+    width: 100%;
+    height: 2px;
+    background: var(--main-color);
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    color: var(--main-color);
 }
