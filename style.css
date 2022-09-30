@@ -367,20 +367,15 @@ header {
 
 #contact .contact_container .f-container {
     flex: 1 1 50rem;
+    padding-top: 15rem;
+    padding-bottom: 15rem;
 }
 
 #contact .contact_container form {
     width: 100%;
     border: var(--border);
-    padding: 2rem;
+    padding: 2rem ;
     text-align: center;
-}
-
-#contact .contact_container  form {
-    border: var(--border);
-    flex-direction: column;
-    text-align: center;
-    padding: 2rem;   
 }
 
 #contact .contact_container form h4 {
@@ -391,7 +386,7 @@ header {
 
 #contact .contact_container form .box {
     width: 100%;
-    padding: 1.4rem;
+    padding: 1rem;
     font-size: 1.8rem;
     color: var(--black);
     border: var(--border);
