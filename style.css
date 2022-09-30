@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda+One&family=Nunito:wght@200;300;400;500;600&display=swap');
+* {
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+
+:root{
+   --main-color:#be9c79;
+   --black:#333;
+   --white:#fff;
+   --light-color:#666;
+   --border:.2rem solid var(--black);
+   --box-shadow:0 .5rem 1rem rgba(0,0,0,.1);
+   --ff:'Merienda One', cursive;
+}
+
+section {
+    padding: 3rem 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 1rem;
+    background-color: var(--main-color);
+    cursor: pointer;
+    color: var(--white);
+    font-size: 1.8rem;
+    padding: 1rem 3rem;
+}
+
+h3 {
+    font-size: 4rem;
+    color: var(--black);
+    font-family: var(--ff);
+}
+
+.heading_image {
+        height: 4rem;
+        margin-bottom: 1rem;
+        text-align: center;
+}
