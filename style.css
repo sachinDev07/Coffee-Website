@@ -239,6 +239,7 @@ header {
 /* Menu Section */
 
 #popular {
+    margin-top: 2rem;
     text-align: center;
 }
 
@@ -267,4 +268,32 @@ header {
 #popular .container .menu h4 {
     font-size: 1.8rem;
     color: var(--light-color);
+}
+
+
+
+/* Gallery Section */
+
+#gallery {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+#gallery .heading img  {
+    height: 3rem;
+    margin-bottom: 1rem;
+}
+
+#gallery .container {
+    display: grid;
+    grid-template-columns:  repeat(3, 1fr);
+    gap: 1.5rem;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+#gallery .container img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
 }
