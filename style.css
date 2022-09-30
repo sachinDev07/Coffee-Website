@@ -287,13 +287,50 @@ header {
 #gallery .container {
     display: grid;
     grid-template-columns:  repeat(3, 1fr);
-    gap: 1.5rem;
+    gap: 1.2rem;
     align-items: flex-start;
     justify-content: center;
 }
 
 #gallery .container img {
-        height: 100%;
-        width: 100%;
-        object-fit: cover;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+
+
+/* Team Section */
+
+#team .heading {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+#team .heading img {
+    height: 3rem;
+    margin-bottom: 1rem;
+}
+
+#team .team_container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: flex-start;
+    gap: 1.2rem;
+}
+
+#team .team_container .box {
+    text-align: center;
+}
+
+#team .team_container .box img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+#team .team_container .box h4 {
+    color: var(--light-color);
+    font-size: 1.8rem;
 }
