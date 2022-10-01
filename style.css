@@ -58,6 +58,7 @@ h3 {
 
 header {
     position: sticky;
+    top: 0%;
     padding: 1rem 1rem;
     background-color: var(--white);
     height: 12vh;
@@ -67,7 +68,7 @@ header {
 
 #head_section .head {
     max-width: 1200px;
-    margin: 0 auto;
+    margin: 0 0 0 5rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -221,7 +222,7 @@ header {
 
 #facility .box_container .box {
     text-align: center;
-    width: 19rem;
+    width: 17rem;
     
 }
 
@@ -551,6 +552,10 @@ header {
 /*       Mobile Device   */
 
 @media (max-width: 480px) {
+    #head_section .head {
+        margin: 0px 0 0 0rem;
+        
+    }
 
     #navbar {
         flex-direction: column;
