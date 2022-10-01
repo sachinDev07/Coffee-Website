@@ -111,6 +111,13 @@ header {
     color: var(--main-color);
 }
 
+.hamburger {
+    display: none;
+}
+
+#close {
+    display: none;
+}
 
 
 /* Hero Section */
@@ -545,6 +552,33 @@ header {
 
 @media (max-width: 480px) {
 
+    #navbar {
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        position: fixed;
+        top: 0;
+        right: -200px;
+        height: 100vh;
+        width: 200px;
+        background-color: white;
+        box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
+        padding: 80px 0 0 20px;
+        transition: .3s;
+    }
+
+    #navbar.active {
+        right: 0;
+    }
+
+    #navbar li {
+        margin-bottom:1.5rem ;
+    }
+
+    header {
+        height: 10vh;
+    }
+
     .p-1 {
         padding: 2rem 1rem;
     }
@@ -673,5 +707,19 @@ header {
         font-size: 1rem;
         margin-top: 1rem;
     }
+
+    .hamburger {
+        display: flex;
+    }
+
+    #close {
+        display: initial;
+        position: absolute;
+        top: 30px;
+        left: 20px;
+        color: var(--black);
+    }
+
+
 
 }
