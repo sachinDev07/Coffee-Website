@@ -449,3 +449,88 @@ header {
 #footer .creadit span {
     color: var(--main-color);
 }
+
+
+
+               /* Media Queries */
+
+/*       Ipad Device    */
+
+
+@media (max-width:768px) {
+
+    header {
+        height: 8vh;
+    }
+    #hero_section {
+        height: 60vh;
+    }
+
+    #hero_section .hero {
+        min-height: 41rem;
+    }
+
+    #hero_section .hero .content {
+        width: 28rem;
+        margin-left: 2.5rem;
+    }
+
+    h3 {
+        font-size: 2.5rem;
+    }
+
+    #hero_section .hero .content p {
+        font-size: 1.2rem;
+    }
+
+    #about_section .wrapper {
+        flex-direction: column;
+    }
+
+    #about_section .wrapper img {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    #about_section .about {
+        width: 100%;
+    }
+
+    #facility .box_container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    #popular .container {
+        grid-template-columns: repeat(2, 1fr);
+        padding: 3rem 5rem;
+    }
+
+    #gallery .container {
+        grid-template-columns: repeat(2, 1fr);
+        padding: 3rem 5rem;
+    }
+
+    #team .team_container {
+        grid-template-columns: repeat(2, 1fr);
+        padding: 3rem 5rem;
+    }
+
+    #contact .contact_container {
+        flex-wrap: wrap;
+    }
+
+    #contact .contact_container form .box {
+        padding: 2rem;
+    }
+
+    #contact .btn {
+        padding: 2rem 3rem;
+        font-size: 1.3rem;
+    }
+
+    #footer .info_container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
