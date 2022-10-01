@@ -394,3 +394,58 @@ header {
 #contact .contact_container form button:hover {
     background-color: var(--black);
 }
+
+
+
+
+/* Footer Section */
+
+#footer .info_container {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+#footer .box {
+    text-align: center;
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+}
+
+#footer .box i {
+    color: var(--white);
+    padding: 1rem;
+    border-radius: 50%;
+    background-color: var(--main-color);
+    margin-bottom: 1rem;
+}
+
+#footer .box h4 {
+    font-size: 1rem;
+    color: var(--black);
+    margin-bottom: .5rem;
+}
+
+#footer .box span {
+    color: var(--light-color);
+    font-size: 1rem;
+    margin-bottom: 2rem;
+    line-height: 2;
+}
+
+#footer section {
+    text-align: center;
+}
+
+#footer .creadit {
+    border-top: 2px solid var(--black);
+    font-size: 1.3rem;
+}
+
+#footer .creadit p {
+    margin-top: 2rem;
+}
+
+#footer .creadit span {
+    color: var(--main-color);
+}
