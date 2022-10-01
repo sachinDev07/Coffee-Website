@@ -452,7 +452,10 @@ header {
 
 
 
+
                /* Media Queries */
+
+
 
 /*       Ipad Device    */
 
@@ -531,6 +534,144 @@ header {
     #footer .info_container {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
+    }
+
+}
+
+
+
+
+/*       Mobile Device   */
+
+@media (max-width: 480px) {
+
+    .p-1 {
+        padding: 2rem 1rem;
+    }
+
+    h3 {
+        font-size: 2rem;
+    }
+
+    #hero_section {
+        background-position: 0;
+    }
+
+    #hero_section h3 {
+        font-size: 2rem;
+        margin-top: -7rem;
+    }
+
+    #hero_section .hero .content p {
+        font-size: .8rem;
+    }
+
+    #hero_section .hero .content {
+
+        margin-left: 0;
+    }
+
+    #hero_section .btn {
+        padding: .5rem 1rem;
+        border-radius: 0%;
+    }
+
+    #about_section .wrapper {
+        margin-top: 0rem;
+    }
+
+    #about_section .about h3 {
+        margin-top: 0;
+        font-size: 1.5rem;
+    }
+
+    #about_section .about p {
+        font-size: .8rem;
+    }
+
+    #about_section .btn {
+        margin-top: .5rem;
+        padding: .5rem 1rem;
+        border-radius: 0;
+    }
+
+    #facility .container img {
+        width: 70%;
+        height: 3rem;
+    }
+
+    facility h3 {
+        font-size: 1.5rem;
+        margin-top: 0;
+    }
+
+    #facility .box_container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    #popular .container {
+        grid-template-columns: repeat(1, 1fr);
+        padding: 1rem 4rem;
+    }
+
+    #popular .container .menu h4 {
+        font-size: 1.3rem;
+    }
+
+    #gallery .heading img {
+       width: 50%;
+    }
+
+    #gallery .container {
+        grid-template-columns: repeat(1, 1fr);
+        padding: 2rem 3rem;
+    }
+
+    #team .heading img {
+        width: 40%;
+    }
+
+    #team .team_container {
+        grid-template-columns: repeat(1, 1fr);
+        padding: 1rem 3rem;
+    }
+
+    #team .team_container .box h4 {
+        font-size: 1.4rem;
+    }
+
+    #contact .heading img {
+        width: 40%;
+    }
+
+    #contact .contact_container form h4 {
+        font-size: 1.5rem;
+        font-weight: 600;
+        margin-bottom: 0rem;
+    }
+
+    #contact .contact_container form .box {
+        padding: .5rem;
+    }
+
+    #contact .contact_container form {
+        padding: 1rem;
+    }
+
+    #contact .btn {
+        padding: 1rem 2rem;
+        font-size: 1rem;
+    }
+
+    #footer .info_container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        text-align: center;
+    }
+
+    #footer .creadit p {
+        font-size: 1rem;
+        margin-top: 1rem;
     }
 
 }
